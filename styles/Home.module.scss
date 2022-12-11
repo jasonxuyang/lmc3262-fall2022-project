@@ -1,0 +1,37 @@
+.mainContainer {
+  margin: 48px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero {
+  margin-bottom: 128px;
+
+  .contents {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+
+    a {
+      width: fit-content;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.containerOneColumn {
+  margin-bottom: 48px;
+}
+
+.containerTwoColumn {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 48px;
+  margin-bottom: 48px;
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
