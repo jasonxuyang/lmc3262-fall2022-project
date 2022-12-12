@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
 import Head from "next/head";
 import styles from "../styles/Home.module.scss";
@@ -27,15 +28,15 @@ export default function Home() {
             role technology plays today in defining the music we listen to.
           </p>
           <div className={styles.contents}>
-            <a href="#section1">Section 1: A Brief History on Radio</a>/
-            <a href="#section2">Section 2: A Brief History on Radio</a>/
-            <a href="#section3">Section 3: A Brief History on Radio</a>
+            <a href="#section1">A Brief History of Radio</a>/
+            <a href="#section2">Radio and the Rise of Youth Culture</a>/
+            <a href="#section3">Music Streaming Services Today</a>
           </div>
         </section>
 
         <section id="section1">
           <div className={styles.containerOneColumn}>
-            <h2>The Rise of the Transistor Radio</h2>
+            <h2>A Brief History of Radio</h2>
             <p>
               The world’s youth became one of the fastest growing demographics
               in music consumption during the 1950s, which was made possible
@@ -46,33 +47,40 @@ export default function Home() {
               environment for the success of the transistor radio.
             </p>
           </div>
-          <div className={styles.containerOneColumn}>
-            <h4>1 - Radio as a social experiment</h4>
-            <p>
-              Commercial radio itself is not a new phenomenon; in fact, radio
-              technology has been used since the early 1900s, especially by
-              amateur enthusiasts. Though in the decades that followed, the user
-              demographics and purpose of radio widened to encompass music as
-              well as mass media. Prior to radio, the primary mediums used to
-              listen to music were through live performance and the phonograph.
-              Radio sought to combine the best of both worlds: deliver the
-              communal aspect of music from live performance while doing so from
-              the comfort of their own homes like the phonograph. This
-              culminated in a sort of shared social experiment where “the
-              workman, the alderman, and the captain of industry could all share
-              in the same experience simply by tuning in”; “listeners might
-              enjoy a symphony, a radio drama, updates on the latest news, an
-              educational lecture, or a sales pitch from the local department
-              store” (Guthrie 284). One of the main concerns about radio was the
-              quality of music when compared to the phonograph. As radio became
-              commodified and spread to households across the country, audiences
-              were willing to tolerate the lower quality of music and radio
-              content because of the higher social status that came with owning
-              a radio (Guthrie 284). However, the invention of FM radio in the
-              1930s solved the audio quality issue. The shared listening
-              experience of radio would soon be available to the youth of nation
-              through the transistor radio.
-            </p>
+          <div className={styles.containerTwoColumn}>
+            <div>
+              <h4>1 - Radio as a social experiment</h4>
+              <p>
+                Commercial radio itself is not a new phenomenon; in fact, radio
+                technology has been used since the early 1900s, especially by
+                amateur enthusiasts. Though in the decades that followed, the
+                user demographics and purpose of radio widened to encompass
+                music as well as mass media. Prior to radio, the primary mediums
+                used to listen to music were through live performance and the
+                phonograph. Radio sought to combine the best of both worlds:
+                deliver the communal aspect of music from live performance while
+                doing so from the comfort of their own homes like the
+                phonograph. This culminated in a sort of shared social
+                experiment where “the workman, the alderman, and the captain of
+                industry could all share in the same experience simply by tuning
+                in”; “listeners might enjoy a symphony, a radio drama, updates
+                on the latest news, an educational lecture, or a sales pitch
+                from the local department store” (Guthrie 284). One of the main
+                concerns about radio was the quality of music when compared to
+                the phonograph. As radio became commodified and spread to
+                households across the country, audiences were willing to
+                tolerate the lower quality of music and radio content because of
+                the higher social status that came with owning a radio (Guthrie
+                284). However, the invention of FM radio in the 1930s solved the
+                audio quality issue. The shared listening experience of radio
+                would soon be available to the youth of nation through the
+                transistor radio.
+              </p>
+            </div>
+            <img
+              src="https://images.nypl.org/index.php?id=1800852&t=w"
+              alt=""
+            />
           </div>
           <div className={styles.containerOneColumn}>
             <h4>2 - Expansion of Radio Audiences</h4>
@@ -122,27 +130,33 @@ export default function Home() {
               broadcasts catering to certain groups of people.
             </p>
           </div>
-          <div className={styles.containerOneColumn}>
-            <h4>4 - Radio in Families</h4>
-            <p>
-              As families purchased and installed radios in their homes, radio
-              became a significant part of the daily American lifestyle.
-              However, radio listening as an activity started to change the
-              family dynamic when it comes to entertainment and music. Like
-              television, listening to the radio was a “home-based leisure”
-              before the introduction to the transistor radio, as opposed to
-              activities outside the household, like going to the movies, which
-              accounted for most entertainment . Along with television, the rise
-              of in-home entertainment “entered into families like intruders”,
-              invading households. Though some saw radio as intrusive media,
-              others claim that “radio and television were an element of
-              familial cohesion which allowed for the improvement of
-              child-parent dialogues, particularly important during the
-              difficult period of adolescence” (Di Spurio). In addition, radio
-              music habits and preferences became individualized and can cause
-              disagreements among family members on which radio stations to tune
-              in to.
-            </p>
+          <div className={styles.containerTwoColumn}>
+            <div>
+              <h4>4 - Radio in Families</h4>
+              <p>
+                As families purchased and installed radios in their homes, radio
+                became a significant part of the daily American lifestyle.
+                However, radio listening as an activity started to change the
+                family dynamic when it comes to entertainment and music. Like
+                television, listening to the radio was a “home-based leisure”
+                before the introduction to the transistor radio, as opposed to
+                activities outside the household, like going to the movies,
+                which accounted for most entertainment . Along with television,
+                the rise of in-home entertainment “entered into families like
+                intruders”, invading households. Though some saw radio as
+                intrusive media, others claim that “radio and television were an
+                element of familial cohesion which allowed for the improvement
+                of child-parent dialogues, particularly important during the
+                difficult period of adolescence” (Di Spurio). In addition, radio
+                music habits and preferences became individualized and can cause
+                disagreements among family members on which radio stations to
+                tune in to.
+              </p>
+            </div>
+            <img
+              src="https://www.census.gov/library/photos/radio-in-the-1930s/_jcr_content/root/responsivegrid/embeddableimage1736.coreimg.jpeg/1550271245229/radio.jpeg"
+              alt=""
+            />
           </div>
           <div className={styles.containerOneColumn}>
             <h4>5 - Teenage Expression</h4>
@@ -162,7 +176,6 @@ export default function Home() {
               height="100%"
               src="https://www.youtube.com/embed/7Y39ciIxWZQ"
               title="YouTube video player"
-              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe>
@@ -183,33 +196,51 @@ export default function Home() {
                 encased in red plastic, but notably, retailed for $50,
                 equivalent roughly $400 today (Smithsonian Magazine).
               </p>
-              <p>
-                Transistor radios changed how music was physically represented
-                and the listening habits of the public, especially on
-                adolescents. Due to the relatively affordable price of the
-                Regency TR-1 other and transistor radios, transistor radios were
-                heavily marketed to teenagers, promoting individualistic
-                listening habits and preferences. In fact, they became “a sort
-                of material rite of passage for teenagers; for example, they
-                became common communion gifts” (Di Spurio). Transistor radios
-                were able to “provide peace within the family unit; parents and
-                children now did not have to fight over the programme to which
-                they each wanted to listen” (Di Spurio). However, those who
-                owned and used transistor radios were not representative of the
-                public. “Teenagers from rural areas … rarely possessed their own
-                transistor radios”, so social class played a part in the
-                public’s use of this new technology. In addition, there was a
-                gender bias also at play. Girls often were more likely to listen
-                to the radio with family, while boys listened to radio outside
-                of the home, usually on their transistor radios (Di Spurio).
-              </p>
             </div>
+          </div>
+          <p>
+            Transistor radios changed how music was physically represented and
+            the listening habits of the public, especially on adolescents. Due
+            to the relatively affordable price of the Regency TR-1 other and
+            transistor radios, transistor radios were heavily marketed to
+            teenagers, promoting individualistic listening habits and
+            preferences. In fact, they became “a sort of material rite of
+            passage for teenagers; for example, they became common communion
+            gifts” (Di Spurio). Transistor radios were able to “provide peace
+            within the family unit; parents and children now did not have to
+            fight over the programme to which they each wanted to listen” (Di
+            Spurio). However, those who owned and used transistor radios were
+            not representative of the public. “Teenagers from rural areas …
+            rarely possessed their own transistor radios”, so social class
+            played a part in the public’s use of this new technology. In
+            addition, there was a gender bias also at play. Girls often were
+            more likely to listen to the radio with family, while boys listened
+            to radio outside of the home, usually on their transistor radios (Di
+            Spurio).
+          </p>
+        </section>
+
+        <section id="section2">
+          <div className={styles.containerOneColumn}>
+            <h2>Radio and the Rise of Youth Music Culture</h2>
+            <p>
+              Patterns in music trends have always been impacted by new emerging
+              technology, and music has always had a way of influencing and
+              shaping society; these facts are no different today. So far, only
+              the transistor radio and the impact of its vogue on teenage
+              culture has been discussed. However, in this section, the impacts
+              of new and different technologies on youth culture and musical
+              trends in teenagers, as well as the similarities and differences
+              between music patterns in teenagers now with music streaming
+              services versus the time of the transistor radio, will be
+              explored.
+            </p>
           </div>
         </section>
 
         <section id="section3">
           <div className={styles.containerOneColumn}>
-            <h2>Parallels Today</h2>
+            <h2>Music Streaming Services as the Modern Radio</h2>
             <p>
               Patterns in music trends have always been impacted by new emerging
               technology, and music has always had a way of influencing and
