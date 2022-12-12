@@ -9,6 +9,14 @@
     padding-top: 128px;
     margin-bottom: 128px;
     border-top: 2px solid white;
+
+    a {
+      text-decoration: underline;
+      cursor: pointer;
+      &:hover {
+        color: blue;
+      }
+    }
   }
 }
 

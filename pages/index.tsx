@@ -28,15 +28,14 @@ export default function Home() {
             role technology plays today in defining the music we listen to.
           </p>
           <div className={styles.contents}>
-            <a href="#section1">A Brief History of Radio</a>/
-            <a href="#section2">Radio and the Rise of Youth Culture</a>/
-            <a href="#section3">Music Streaming Services Today</a>
+            <a href="#section1">Radio and the Rise of Youth Culture</a>/
+            <a href="#section2">Music Streaming Services Today</a>
           </div>
         </section>
 
         <section id="section1">
           <div className={styles.containerOneColumn}>
-            <h2>A Brief History of Radio</h2>
+            <h2>Radio and the Rise of Youth Culture</h2>
             <p>
               The world’s youth became one of the fastest growing demographics
               in music consumption during the 1950s, which was made possible
@@ -65,13 +64,19 @@ export default function Home() {
                 industry could all share in the same experience simply by tuning
                 in”; “listeners might enjoy a symphony, a radio drama, updates
                 on the latest news, an educational lecture, or a sales pitch
-                from the local department store” (Guthrie 284). One of the main
-                concerns about radio was the quality of music when compared to
-                the phonograph. As radio became commodified and spread to
-                households across the country, audiences were willing to
-                tolerate the lower quality of music and radio content because of
-                the higher social status that came with owning a radio (Guthrie
-                284). However, the invention of FM radio in the 1930s solved the
+                from the local department store”{" "}
+                <a href="https://www.meiea.org/Journal/Vol14/Guthrie">
+                  (Guthrie 284)
+                </a>
+                . One of the main concerns about radio was the quality of music
+                when compared to the phonograph. As radio became commodified and
+                spread to households across the country, audiences were willing
+                to tolerate the lower quality of music and radio content because
+                of the higher social status that came with owning a radio{" "}
+                <a href="https://www.meiea.org/Journal/Vol14/Guthrie">
+                  (Guthrie 284)
+                </a>
+                . However, the invention of FM radio in the 1930s solved the
                 audio quality issue. The shared listening experience of radio
                 would soon be available to the youth of nation through the
                 transistor radio.
@@ -89,20 +94,26 @@ export default function Home() {
               Communications Commission (FCC) enforced new regulations that
               would vastly increase the number of station licenses in the United
               States: “fewer than 1,000 radio stations were broadcasting in 1945
-              in the US but grew to 2000 in 1950, 3500 in 1960 and 4000 in 1965”
-              (Radio Reader 371). The steep increase in radio stations leads to
-              competition among stations over listeners, forcing stations to
-              diversify and find their own niches in the radio scene.
-              Eventually, radio stations began to narrow their music choices to
-              establish their “core audiences” and create their own brand around
-              it. This shift was also replicated through the dispersion of
-              audiences across the wide selection of radio stations. Because
-              each radio station started to solidify their audiences under a
-              shared interest or niche, radio programmers were now able to
-              “reduce the uncertainty of their programming decisions and attract
-              advertisers seeking specific groups of consumers”, producing a
-              “fragmented and pluralistic culture” of radio (Radio Reader 379).
-              These consumer groups can refer to many demographics such as
+              in the US but grew to 2000 in 1950, 3500 in 1960 and 4000 in 1965”{" "}
+              <a href="https://books.google.com/books/about/Radio_Reader.html?id=iSJTLDDg0XEC">
+                (Radio Reader 371)
+              </a>
+              . The steep increase in radio stations leads to competition among
+              stations over listeners, forcing stations to diversify and find
+              their own niches in the radio scene. Eventually, radio stations
+              began to narrow their music choices to establish their “core
+              audiences” and create their own brand around it. This shift was
+              also replicated through the dispersion of audiences across the
+              wide selection of radio stations. Because each radio station
+              started to solidify their audiences under a shared interest or
+              niche, radio programmers were now able to “reduce the uncertainty
+              of their programming decisions and attract advertisers seeking
+              specific groups of consumers”, producing a “fragmented and
+              pluralistic culture” of radio{" "}
+              <a href="https://books.google.com/books/about/Radio_Reader.html?id=iSJTLDDg0XEC">
+                (Radio Reader 379)
+              </a>
+              . These consumer groups can refer to many demographics such as
               specific races, religions, or age ranges.
             </p>
           </div>
@@ -113,21 +124,28 @@ export default function Home() {
               minorities in the US for the better. Even though the income of
               Black Americans “continued to lag far behind that of whites,
               studies indicate that it grew at a faster rate between 1940 and
-              1954 than at any previous time in American history” (Radio Reader
-              372). As minority communities started to earn more money, they
-              were able to economically participate in mainstream American
-              culture, which included the radio. As radio stations diversified
-              in their broadcast content, minority radio stations began to form
-              starting in 1947. Some of the first stations included WDIA in
-              Memphis for Black audiences and KCOR in San Antonio for Hispanic
-              audiences. However, the stations behind minority radio were still
-              subject to discrimination. Most minority stations in the US
-              “rarely were owned by nonwhites” and some advertisers refused to
-              hire black permanent employees or contractors. Despite the
-              discrimination, minority radio was still “a sense of pride to the
-              communities they served” (Radio Reader 373). Minority radio is a
-              prime example of how the diversification of radio stations led to
-              broadcasts catering to certain groups of people.
+              1954 than at any previous time in American history”{" "}
+              <a href="https://books.google.com/books/about/Radio_Reader.html?id=iSJTLDDg0XEC">
+                (Radio Reader 372)
+              </a>
+              . As minority communities started to earn more money, they were
+              able to economically participate in mainstream American culture,
+              which included the radio. As radio stations diversified in their
+              broadcast content, minority radio stations began to form starting
+              in 1947. Some of the first stations included WDIA in Memphis for
+              Black audiences and KCOR in San Antonio for Hispanic audiences.
+              However, the stations behind minority radio were still subject to
+              discrimination. Most minority stations in the US “rarely were
+              owned by nonwhites” and some advertisers refused to hire black
+              permanent employees or contractors. Despite the discrimination,
+              minority radio was still “a sense of pride to the communities they
+              served”{" "}
+              <a href="https://books.google.com/books/about/Radio_Reader.html?id=iSJTLDDg0XEC">
+                (Radio Reader 373)
+              </a>
+              . Minority radio is a prime example of how the diversification of
+              radio stations led to broadcasts catering to certain groups of
+              people.
             </p>
           </div>
           <div className={styles.containerTwoColumn}>
@@ -147,10 +165,13 @@ export default function Home() {
                 intrusive media, others claim that “radio and television were an
                 element of familial cohesion which allowed for the improvement
                 of child-parent dialogues, particularly important during the
-                difficult period of adolescence” (Di Spurio). In addition, radio
-                music habits and preferences became individualized and can cause
-                disagreements among family members on which radio stations to
-                tune in to.
+                difficult period of adolescence”{" "}
+                <a href="https://doi.org/10.1080/00309230.2017.1359190">
+                  (Di Spurio)
+                </a>
+                . In addition, radio music habits and preferences became
+                individualized and can cause disagreements among family members
+                on which radio stations to tune in to.
               </p>
             </div>
             <img
@@ -165,9 +186,13 @@ export default function Home() {
               music post-World-War-II. Teenagers and young adults were finding
               their “need for physical expression” through dance and music.
               Young white audiences were drawn to R&B and music of black
-              audiences for their love of rhythm in music (Di Spurio). Given
-              R&B’s heavy influence in the future rise of rock-n-roll, young
-              audiences will be a key target demographic for new radio stations.
+              audiences for their love of rhythm in music{" "}
+              <a href="https://doi.org/10.1080/00309230.2017.1359190">
+                (Di Spurio)
+              </a>
+              . Given R&B’s heavy influence in the future rise of rock-n-roll,
+              young audiences will be a key target demographic for new radio
+              stations.
             </p>
           </div>
           <div className={styles.containerTwoColumn}>
@@ -194,7 +219,11 @@ export default function Home() {
                 the Regency TR-1, the first transistor radio, released in
                 November 1954. The Regency TR-1 was only a few inches tall and
                 encased in red plastic, but notably, retailed for $50,
-                equivalent roughly $400 today (Smithsonian Magazine).
+                equivalent roughly $400 today{" "}
+                <a href="https://www.smithsonianmag.com/smithsonian-institution/sixty-years-ago-the-regency-TR-1-Transistor-Radio-Was-the-New-It-Gift-For-the-Holiday-Season-180953345/">
+                  (Smithsonian Magazine)
+                </a>
+                .
               </p>
             </div>
           </div>
@@ -206,39 +235,31 @@ export default function Home() {
             teenagers, promoting individualistic listening habits and
             preferences. In fact, they became “a sort of material rite of
             passage for teenagers; for example, they became common communion
-            gifts” (Di Spurio). Transistor radios were able to “provide peace
-            within the family unit; parents and children now did not have to
-            fight over the programme to which they each wanted to listen” (Di
-            Spurio). However, those who owned and used transistor radios were
-            not representative of the public. “Teenagers from rural areas …
-            rarely possessed their own transistor radios”, so social class
-            played a part in the public’s use of this new technology. In
-            addition, there was a gender bias also at play. Girls often were
-            more likely to listen to the radio with family, while boys listened
-            to radio outside of the home, usually on their transistor radios (Di
-            Spurio).
+            gifts”{" "}
+            <a href="https://doi.org/10.1080/00309230.2017.1359190">
+              (Di Spurio)
+            </a>
+            . Transistor radios were able to “provide peace within the family
+            unit; parents and children now did not have to fight over the
+            programme to which they each wanted to listen”{" "}
+            <a href="https://doi.org/10.1080/00309230.2017.1359190">
+              (Di Spurio)
+            </a>
+            . However, those who owned and used transistor radios were not
+            representative of the public. “Teenagers from rural areas … rarely
+            possessed their own transistor radios”, so social class played a
+            part in the public’s use of this new technology. In addition, there
+            was a gender bias also at play. Girls often were more likely to
+            listen to the radio with family, while boys listened to radio
+            outside of the home, usually on their transistor radios{" "}
+            <a href="https://doi.org/10.1080/00309230.2017.1359190">
+              (Di Spurio)
+            </a>
+            .
           </p>
         </section>
 
         <section id="section2">
-          <div className={styles.containerOneColumn}>
-            <h2>Radio and the Rise of Youth Music Culture</h2>
-            <p>
-              Patterns in music trends have always been impacted by new emerging
-              technology, and music has always had a way of influencing and
-              shaping society; these facts are no different today. So far, only
-              the transistor radio and the impact of its vogue on teenage
-              culture has been discussed. However, in this section, the impacts
-              of new and different technologies on youth culture and musical
-              trends in teenagers, as well as the similarities and differences
-              between music patterns in teenagers now with music streaming
-              services versus the time of the transistor radio, will be
-              explored.
-            </p>
-          </div>
-        </section>
-
-        <section id="section3">
           <div className={styles.containerOneColumn}>
             <h2>Music Streaming Services as the Modern Radio</h2>
             <p>
@@ -267,12 +288,15 @@ export default function Home() {
               services have on their audience: streaming services encourage
               their audiences to indulge in binge-listening. Sidney Eve Matrix,
               a professor of Film at Queen’s University and Author, wrote a
-              paper titled “The Netflix Effect” on media streaming services and
-              their impact on teenagers. Although the paper mostly looks into
-              On-Demand television streaming, she notes that the patterns seen
-              in teens streaming television shows is highly comparable to the
-              patterns seen in teens streaming music on services such as
-              Spotify.
+              paper titled{" "}
+              <a href="https://sites.pitt.edu/~nancyp/uhc-1510/TeensAndBingeWatching.pdf">
+                “The Netflix Effect”
+              </a>{" "}
+              on media streaming services and their impact on teenagers.
+              Although the paper mostly looks into On-Demand television
+              streaming, she notes that the patterns seen in teens streaming
+              television shows is highly comparable to the patterns seen in
+              teens streaming music on services such as Spotify.
             </p>
             <div className={styles.quote}>
               Matrix says, “Video on demand, or the Netflix effect, is ushering
@@ -308,9 +332,12 @@ export default function Home() {
               step back and see things from a wider angle, it is clear that the
               internet as a whole heavily impacts music trends. In an article
               written by previous University of the Pacific student Ailey Butler
-              titled “Why Streaming is a Good Thing for the Music Industry”,
-              Butler briefly touches on the fact that individuals tend to have a
-              more diverse taste in music now that it’s more accessible.
+              titled{" "}
+              <a href="https://scholarlycommons.pacific.edu/cgi/viewcontent.cgi?article=1044&amp;context=backstage-pass">
+                “Why Streaming is a Good Thing for the Music Industry”
+              </a>
+              , Butler briefly touches on the fact that individuals tend to have
+              a more diverse taste in music now that it’s more accessible.
             </p>
             <div className={styles.quote}>
               She says, “In the same vein, music streaming also makes it easier
