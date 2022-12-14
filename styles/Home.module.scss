@@ -18,6 +18,14 @@
       }
     }
   }
+
+  footer {
+    border-top: 2px solid white;
+    padding-top: 128px;
+    padding-bottom: 48px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
 }
 
 .hero {

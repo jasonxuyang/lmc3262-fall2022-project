@@ -398,6 +398,19 @@ export default function Home() {
             </p>
           </div>
         </section>
+        <footer>
+          <div>
+            <h3>LMC 3263</h3>
+            <p>For Georgia Tech's LMC 3263: History of Music Class</p>
+            <p>Built in Fall 2022</p>
+          </div>
+          <div>
+            <h3>Team Members</h3>
+            <p>Jason Yang - Development</p>
+            <p>Esha Singh - Research and Content</p>
+            <p>Karthik Varadharajan - Research and Content</p>
+          </div>
+        </footer>
       </main>
     </>
   );
