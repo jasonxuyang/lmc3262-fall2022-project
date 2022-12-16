@@ -28,8 +28,9 @@ export default function Home() {
             role technology plays today in defining the music we listen to.
           </p>
           <div className={styles.contents}>
-            <a href="#section1">Radio and the Rise of Youth Culture</a>/
-            <a href="#section2">Music Streaming Services Today</a>
+            <a href="#section1">A Brief History on Radio</a>/
+            <a href="#section2">The Transistor Radio and Youth Culture</a>/
+            <a href="#section3">Music Streaming Services Today</a>
           </div>
         </section>
 
@@ -261,6 +262,190 @@ export default function Home() {
 
         <section id="section2">
           <div className={styles.containerOneColumn}>
+            <h2>The Transistor Radio and Youth Culture</h2>
+            <p>
+              The invention of the transistor radio coincided with many other
+              broad societal changes in music society during the 1950s. We
+              discuss in the following sections how teens interacted with the
+              radio, how communities are built around the radio, the rise of
+              disc jockeys, and emergence of rock and roll, and offer commentary
+              about how these factors all interact with each other to form a new
+              youth culture that was disseminated through the transistor radio.
+            </p>
+          </div>
+          <div className={styles.containerOneColumn}>
+            <h4>How Teens Interact with the Radio</h4>
+            <p>
+              Radio and music were a driving force in the emergence of “youth
+              culture” in the mid-1950s. Di Spurio in his paper,{" "}
+              <a href="https://doi.org/10.1080/00309230.2017.1359190">
+                Radiorrhea
+              </a>
+              , discusses two primary factors that hypothesize why radio had
+              such an impact on teens during this time: the need for background
+              noise and the need to escape their reality. According to Di
+              Spurio, teenagers exhibited a need for a “constant flow of sound
+              and music”. Teenagers were described as more “hearing” music
+              rather than “listening” to it, a form of passive listening.
+              Teenagers were not so much“listening to” as much as “feeling” the
+              music, what they claimed to be searching for were “sensations”,
+              and what Di Spurio describes as a “need for dance” and a “love for
+              rhythm”. Oftentimes, teens would listen to the radio in the
+              background while doing other activities, such as their homework.
+              Di Spurio claims that this type of background presence became
+              something that adolescents were addicted to, which could also be
+              related to a fear of emptiness and an inability to cope with
+              solitude. As Di Spurio quotes “the radio rather acts as a stopgap
+              of the empty space of life or as a way to create a background
+              music to the principal activity”.
+            </p>
+          </div>
+          <div className={styles.containerOneColumn}>
+            <h4>How Radio Creates Communities</h4>
+            <p>
+              Transistor radios allowed teenagers to listen to music on their
+              own, turning this listening into a personal experience. While the
+              transistor radio took away from the traditional prominent family
+              activity of sitting in the living room and listening to the radio,
+              another culture emerged in the form of teenagers meeting, and
+              gathering around a portable radio to listen to music together{" "}
+              <a href="https://link.springer.com/book/10.1007/978-3-319-49088-5">
+                (J.B. Williams)
+              </a>
+              .{" "}
+              <a href="https://www.jstor.org/stable/30217121#metadata_info_tab_contents">
+                McLuhan
+              </a>{" "}
+              compares the impact of radio on teens to the role of a drum in
+              tribal communities, claiming that the radio gives individuals the
+              privacy of their own experience, while also connecting them to the
+              larger “central nervous system” of the “common market of song and
+              resonance”. McLuhan explains that the radio has a “native power”
+              to involve people in one another. In this way, the communities
+              built around the radio are similar to that of a tribal culture,
+              which he defines as a culture built upon the “transmission of its
+              attitudes upon the collective or mass medium of speech”. As teens
+              all tune into the same channel, they are connecting into this
+              nervous system, and become a part of a community where they all
+              listen in to a shared experience. The radio was a vehicle which
+              allowed teens to withdraw from their local shared familial
+              community and into their own more private listening experience
+              with the radio, while also connecting the larger community of a
+              shared tribal-like community. This point is further evident by the
+              prominence of disc-jockey cults during this time period.
+            </p>
+          </div>
+          <div className={styles.containerOneColumn}>
+            <h4>The Rise of Disc Jockeys</h4>
+            <p>
+              Radio programming during this time became more catered towards the
+              newly founded teen audience. In an article published in the{" "}
+              <a href="https://www.jstor.org/stable/852886#metadata_info_tab_contents">
+                Cambridge University Press
+              </a>
+              , Peterson describes the change of the role of the “functionary
+              position of radio announcer” into the ‘showman-entrepreneur dj”,
+              defining a new genre of radio called “personality radio”. The
+              personality radio disc jockey would engage conversationally with
+              their audience, and would even take phone call song requests. Disc
+              jockeys would even participate in local community functions or
+              visit high schools in the area to promote their channel. According
+              to{" "}
+              <a href="https://www.sciencedirect.com/science/article/pii/S0040162506001491?ref=pdf_download&fr=RR-2&rr=77a479942da62449">
+                Geels
+              </a>
+              , disc jockey’s close “user-producer” interaction gave them
+              valuable feedback when it came to determining which songs to play,
+              which further enabled them to better identify hit songs that would
+              appeal to their teenage audience.
+            </p>
+          </div>
+          <div className={styles.containerOneColumn}>
+            <h4>Rock and Roll and Teens</h4>
+            <p>
+              With the emergence of a new profitable teen audience founded by
+              the development of the transistor radio, along came the rise of
+              Rock and Roll. According to{" "}
+              <a href="https://www.jstor.org/stable/852886#metadata_info_tab_contents">
+                Geels
+              </a>
+              , Rock and Rolls' new sound utilizing electric guitars and amps
+              focused more on beat and rhythm rather than pleasant harmonies
+              that are characteristic of pop. This type of music highly appealed
+              to this new Teen audience, who primarily listen to music on the
+              radio to feel “sensations” and desire a “constant flow of sound
+              and music” as mentioned previously. Additionally the themes
+              present in these Rock and Roll songs coincides with a lot of the
+              sentiments of the youth during this time period. The transistor
+              radio was an avenue for increased independence and freedom, and
+              Rock and Roll “signaled rebellion to authority from parents,
+              school teachers, church and state”{" "}
+              <a href="https://www.jstor.org/stable/852886#metadata_info_tab_contents">
+                (Geels)
+              </a>
+              . The black leather jackets and greased up hair went directly
+              against the “social rigidity and conformity in high schools and
+              families”{" "}
+              <a href="https://www.jstor.org/stable/852886#metadata_info_tab_contents">
+                (Geels)
+              </a>
+              .
+            </p>
+          </div>
+          <div className={styles.containerOneColumn}>
+            <p>
+              The transistor radio allowed teens to listen to radio programming
+              independently of their parents. With this new freedom, they
+              listened to new types of music and programming, typically newfound
+              disc jockeys. A case can be made that without the development of
+              the electric guitar and rock and roll, teens would not have
+              purchased transistor radios. Yet, a case can also be made that
+              rock and roll may have not had the success it had without the
+              distribution power of the transistor radio and disc jockeys.
+              Additionally, one can argue that it was because of the charismatic
+              programming of disc jockeys that teens began listening to rock and
+              roll, and that led to the success of the music genre and the
+              development of a youth music culture. Maybe radio jockeys were
+              only popular because they played rock and roll?
+            </p>
+            <p>
+              While it is difficult to isolate the exact effects the transistor
+              radio had on the rise of youth culture and new listening habits
+              from other transitions during this time such as the rise of disc
+              jockeys and the emergence of rock and roll, the fact is that radio
+              during the 1950’s played an essential role in the development of a
+              new youth culture. Many teenagers during this time period listened
+              to the radio and found a new community in Rock and Roll and disc
+              jockeys. As{" "}
+              <a href="https://www.jstor.org/stable/852886#metadata_info_tab_contents">
+                Geels
+              </a>{" "}
+              concludes in his paper on the breakthrough or rock and roll, the
+              broad transformations occurring in the music industry, musical
+              instruments, recording technology, audience, radio programming,
+              and music styles set the foundation for the emergence of this new
+              youth culture, and one of the key distribution channels for this
+              culture was the transistor radio. While, the importance and impact
+              the transistor radio had can seem understated at times, as it
+              oftentimes served as the background track for everyday life, many
+              former-teens look fondly back at the times they carried around a
+              portable radio.
+            </p>
+            <p>
+              As Fisher states in his book,{" "}
+              <a href="https://books.google.com/books?id=KLNVmbXDZIcC&printsec=copyright#v=onepage&q&f=false">
+                Something in the Air
+              </a>
+              , “Nobody talked much about the radio then; it was just there. The
+              songs and jingles embedded themselves in our memories, linking to
+              moments magical and painful, connecting to events, places, and
+              people.”
+            </p>
+          </div>
+        </section>
+
+        <section id="section3">
+          <div className={styles.containerOneColumn}>
             <h2>Music Streaming Services as the Modern Radio</h2>
             <p>
               Patterns in music trends have always been impacted by new emerging
@@ -406,7 +591,7 @@ export default function Home() {
           </div>
           <div>
             <h3>Team Members</h3>
-            <p>Jason Yang - Development</p>
+            <p>Jason Yang - Development, Research, and Content</p>
             <p>Esha Singh - Research and Content</p>
             <p>Karthik Varadharajan - Research and Content</p>
           </div>
